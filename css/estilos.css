@@ -1,0 +1,1124 @@
+/*@import url(../fonts/flechaarriba.css);*/
+@import url(../fonts/styles_icons.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ir-arriba{
+    display: none;
+    padding: 5px;
+    background: #0096cb;
+    font-size: 40px;
+    color: #f1a21e;
+    cursor: pointer;
+    position: fixed;
+    
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50% ;
+}
+@font-face{
+    font-family: assistant-bold;
+    src: url(../fonts/Assistant-ExtraBold.ttf);
+    
+}
+@font-face{
+    font-family: assistant-light;
+    src: url(../fonts/Assistant-Bold.ttf);
+}
+@font-face{
+    font-family: assistant-light-extra;
+    src: url(../fonts/Assistant-light.ttf);
+}
+
+header{
+    border-top: 45px solid #00609c;
+    height: 250px;
+    position: relative;
+    left: 0px; top: 0vw; 
+}
+.container {
+    width:98%;
+    margin: auto;
+}
+.conte{
+    
+    max-width: 100%;
+}
+
+header .header-top .container img{
+    width: 10vw;
+    position: absolute;
+    left: 16.5vw;
+    padding-top: 25px;
+}
+
+header .header-top .container ul{
+    position: absolute;
+    list-style: none;
+    display: flex;
+    left: 25vw;
+    transform: translateY(40%);
+    width: 70vw;
+
+}
+header .header-top .container ul li a{
+    border-radius: 30px / 30px ;    
+    background-color: #ffffff;
+    padding-left: 1px;
+    padding-right: 1px;
+    border: solid 3px;
+    border-color: #ffffff;
+    text-decoration: none;
+    font-family: assistant-light;
+    font-weight: bold;
+    color: #989798;
+    font-size: 19px;
+    
+}    
+header .header-top .container ul li a:hover{
+    color: #f5f4f4;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 30px / 30px ; 
+    border: solid 3px;
+    border-color: #0096cb;
+    background-color: #0096cb;
+    transition: background-color 1.5s;
+}
+
+/*Lupa*/
+header .header-top .container ul li a span{
+    font-weight: bold;
+    color:#0098cf;
+    font-size: 1em;
+}   
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    
+}
+
+ul li{
+    padding: 15px;
+    
+}
+/*Aqui comienza la edicion del HOME y carrusel*/
+
+.HOME {
+    
+    width: 100%;
+    height: 100%;
+   
+} 
+
+#HOME .tit{
+    position: relative;
+    margin-top: -40%;
+    font-family: assistant-bold;
+    font-size: 50px;
+    line-height: 50px;
+}
+#HOME .tit2{
+    position: relative;
+    margin-top: 0%;
+    margin-left: 15px;
+    line-height: 20px;
+    font-family: assistant-light;
+    font-size: 17px; 
+    transform: translateY(-100%);
+}
+#HOME .cuadro1{
+    position: relative;
+    background: #f1a21e;
+    width: 5px;
+    height: 35px;
+    display: inline-block;
+    border: 1px solid #f1a21e;
+    transform: translateY(10%);
+    padding-top: 10px;
+    margin-left: 5px;
+}
+
+
+
+/*--Cambiar el cuadro de indicadores de carrusel--*/
+
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-indicators li {
+    transition: background-color .5s;
+  }
+}
+
+.carousel-indicators .active {
+  background-color: #0096cb;
+  opacity: 1;
+}
+
+.carousel-caption {
+    transform: translateY(-130%);
+  position: absolute;
+  color: #fff;
+  text-align: left;
+}
+
+/*Aqui comienza la edicion de la seccion de NOSOTROS*/
+#NOSOTROS{
+    width: 100%;
+    height: 690px;
+    
+}
+#NOSOTROS .todonosotros{
+    width: 100%;
+    height: 100%;
+}
+
+#NOSOTROS .titulonos{
+    width: 100%;
+    height: 200px;
+}
+#NOSOTROS .titulonos h1{
+    margin-left: 12%;
+    margin-top: 5%;
+    font-size: 70px;
+    color: #0096cb;
+    font-family: assistant-bold;
+}
+#NOSOTROS .titulonos span {
+    margin-left: 12.5%;
+    transform: translateY(-12px);
+    display: inline-block;
+}
+#NOSOTROS .titulonos span p{
+    display: inline-block;
+    background: #f1a21e;
+    width: 7px;
+    height: 27px;
+    border: 1px solid #f1a21e;
+}
+#NOSOTROS .titulonos h4{
+    transform: translateY(-15px);
+    display: inline-block;
+    font-size: 40px;
+    color: #066098;
+    font-family: assistant-bold;
+}
+#NOSOTROS .textoylists{
+    float: left;
+    width: 60%;
+    height: 470px;    
+}
+#NOSOTROS .textoylists p{
+    position: absolute;
+    left: 12%;
+    text-align: justify;
+    font-family: assistant-light-extra;
+    font-weight: bold;
+    font-size: 20px;
+    color: #989798;
+    LINE-HEIGHT:20px;
+} 
+#NOSOTROS .lista1{
+    position: relative;
+    top: 110px; left: 12%;
+    display: inline-block;
+    
+}
+@media (min-width: 1400px){
+    #NOSOTROS .lista1{
+        position: relative;
+        top: 110px; left: 15%;
+    }
+}
+
+#NOSOTROS .lista1 li{
+    list-style: none;
+    transform: translateY(0px);
+    margin-top: -20px;
+    LINE-HEIGHT: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+#NOSOTROS .lista1 li img{
+    height: 12px;
+    width: 5px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+}
+#NOSOTROS .lista1 a{
+    color: #066098;
+    font-family: assistant-light;
+    font-size: 20px;
+}
+
+#NOSOTROS .lista2{
+    display: inline-block;
+    position: relative;
+    top: 110px; left: 10%;
+}
+
+#NOSOTROS .lista2 li{
+    list-style: none;
+    transform: translateY(0px);
+    margin-top: -20px;
+    LINE-HEIGHT: 0px;
+    margin-left: 0px;
+    text-align: left;
+}
+#NOSOTROS .lista2 li img{
+    height: 12px;
+    width: 5px;
+    margin-right: 7px;
+    margin-bottom: 2px;
+}
+#NOSOTROS .lista2 a{
+    color: #066098;
+    font-family: assistant-light;
+    font-size: 20px;
+}
+#NOSOTROS .iconnos{
+    float: left;
+    width: 40%;
+    height: 470px;
+}
+#NOSOTROS .icon1nos{
+    width: 100%;
+    height: 25%;
+    
+}
+#NOSOTROS .icon1nos p{
+    margin-left:13px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #989798;
+    font-family: assistant-light;
+    display: inline-block;
+
+}
+#NOSOTROS .icon1nos b{
+    font-size: 18px;
+    font-family: assistant-bold;
+    color: #066098;
+}
+#NOSOTROS .icon1nos img{
+    transform: translateY(-30%);
+    width: 70px;
+    height: 70px;
+}
+#NOSOTROS .icon2nos{
+    width: 100%;
+    height: 23%;
+    
+}
+#NOSOTROS .icon2nos p{
+    margin-left:13px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #989798;
+    font-family: assistant-light;
+    display: inline-block;
+
+}
+#NOSOTROS .icon2nos b{
+    font-size: 18px;
+    font-family: assistant-bold;
+    color: #066098;
+}
+#NOSOTROS .icon2nos img{
+    transform: translateY(-40%);
+    width: 70px;
+    height: 70px;
+}
+
+#NOSOTROS .icon3nos{
+    width: 100%;
+    height: 25%;
+    
+}
+#NOSOTROS .icon3nos p{
+    margin-left:13px;
+    line-height: 20px;
+    font-size: 18px;
+    color: #989798;
+    font-family: assistant-light;
+    display: inline-block;
+
+}
+#NOSOTROS .icon3nos b{
+    font-size: 18px;
+    font-family: assistant-bold;
+    color: #066098;
+}
+#NOSOTROS .icon3nos img{
+    transform: translateY(-40%);
+    width: 70px;
+    height: 70px;
+}
+
+#NOSOTROS .rayitaiconos{
+    background: #f1a21e;
+    width:30px;
+    height: 7px;
+    border: 1px solid #f1a21e;
+    padding-top: 1px;
+    margin-left: 90px;
+    margin-right: 8px;
+}
+#NOSOTROS .rayita2iconos{
+    transform: translateY(-180%);
+    background: #f1a21e;
+    width:30px;
+    height: 7px;
+    border: 1px solid #f1a21e;
+    padding-top: 1px;
+    margin-left: 90px;
+    margin-right: 8px;
+}
+
+/*Aqui comienza la edicion de GERENTES*/
+#GERENTES{
+    width: 100%;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Foto Fondo Gerentes.webp");
+    
+}
+#GERENTES .gerentetodo{
+    position: relative;
+    top: 1%;
+    width: 780px;
+    height: 98%;    
+    margin: auto auto;    
+}
+
+#GERENTES .gerentetodo .ger1{
+    float: left;
+    position: relative;
+    top: 20%;
+    width: 240px;
+    height: 60%;
+    
+    margin-left: auto;
+    margin-right: 2.3%;
+}
+
+#GERENTES .gerenteimg{
+    margin-left: 31%;
+    margin-top: 10%;
+    width: 91px;
+    height: 91px; 
+
+    
+}
+#GERENTES .gerentenombre{
+    margin-top: 6%;
+    margin-left: 4%;
+    width: 223px;
+}
+
+
+#GERENTES .gerentecargo1{ 
+    margin-top: 6%;
+    margin-left: 0%;
+    width: 240px; 
+}
+#GERENTES .gerentecargo2{ 
+    margin-top:  6%;
+    margin-left: 18.75%;
+    width: 150px; 
+}
+#GERENTES .gerentecargo3{ 
+    margin-top:  6%;
+    margin-left: 18.75%;
+    width: 150px; 
+}
+
+/*Aqui comienza la edicion de mision y vision*/
+#MISIONVISION{
+    width: 100%;
+    height: 500px;
+}
+#MISIONVISION .todomv{
+    width: 100%;
+    height: 100%;
+}
+#MISIONVISION .MISION{
+    float: left;
+    width: 49%;
+    height: 100%;
+}
+#MISIONVISION h1{
+    font-family: assistant-bold;
+    font-weight: bold;
+    font-size: 55PX;
+    color: #066098;
+    margin-top: 17%;
+    margin-left: 20%;
+}
+#MISIONVISION p{
+    font-family: assistant-light-extra;
+    font-weight: bold;
+    font-size: 110%;
+    line-height: 23px;
+    text-align: justify;
+    color: #444242;  
+    margin-left: 20%;
+}
+@media (min-width: 1600px){
+    #MISIONVISION .MISION h1{
+        position: relative;
+        left: 20%;
+    }
+    #MISIONVISION .MISION p{
+        position: relative;
+        left: 20%;
+    }
+}
+
+#MISIONVISION b{
+    font-family: assistant-bold;
+    color: #066098; 
+}
+#MISIONVISION .rayita{
+    float: left;
+    width: 7px;
+    height: 200px;
+    background: #f1a21e;
+    margin-top: 10.2%;
+}
+#MISIONVISION .VISION{
+    float: left;
+    width: 49%;
+    height: 100%;
+    margin-left: -5%;
+}
+/*Aqui comienza la edicion de SECTORESINDUSTRIALES*/
+#SECTORESINDUSTRIALES{
+    width: 100%;
+    height: 1400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Fondo sectores industriales-51.webp");
+    
+}
+#SECTORESINDUSTRIALES .todosi{
+    
+    width: 100%;
+    height: 100%;
+}
+#SECTORESINDUSTRIALES .titulosi{
+ 
+    width: 100%;
+    height: 25%;
+}
+#SECTORESINDUSTRIALES .titulosi h1{
+    padding-top: 8%;
+    margin-top: 7%;
+    margin-left: 0%;
+    font-size: 82px;
+    font-family: assistant-bold;
+    color: #ffffff; 
+    line-height:65px;
+    text-align: center;
+}
+#SECTORESINDUSTRIALES .rayita1si{
+    transform: translateY(-60px);
+    margin-left: 47%;
+    width: 90px;
+    height: 7px;
+    background: #0086cb;
+}
+#SECTORESINDUSTRIALES .txticnsi{
+    width: 100%;
+    height: 52%;
+}
+#SECTORESINDUSTRIALES .txtsi{
+    
+    font-family: assistant-bold;
+    color: #ffffff; 
+    float: left;
+    width: 40.5%;
+    height: 100%;
+}
+#SECTORESINDUSTRIALES .txtsi h1{
+    font-size: 300%;
+    margin-top: 11%;
+    margin-left: 34%;
+    line-height: 45px;
+}
+#SECTORESINDUSTRIALES .txtsi P{
+    margin-top: 20px;
+    font-size: 110%;
+    font-family: assistant-light-extra;
+    margin-left: 35%;
+    line-height: 25px;
+}
+#SECTORESINDUSTRIALES .flechablanca{
+    float: left;
+    width: 7%;
+    height: 100%;
+    
+}
+#SECTORESINDUSTRIALES .flechablanca img{
+    margin-top: 100%;
+    width: 40px;
+    height: 60px;
+    
+}
+#SECTORESINDUSTRIALES .icnsis{
+    float: left;
+    width: 651px;
+    height: 100%;
+}
+#SECTORESINDUSTRIALES .lineaicns1{
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+#SECTORESINDUSTRIALES .lineaicns1 img{
+    margin-left: 0% ;
+    width: 73%;
+    height: 73%;
+}
+#SECTORESINDUSTRIALES .lineaicns1 h1{
+    margin-top: -10%;
+    font-family: assistant-bold;
+    color: #ffffff; 
+    font-size: 18px;
+    width: 100%;
+    height: 40%;
+}
+#SECTORESINDUSTRIALES .lineaicns2{
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+#SECTORESINDUSTRIALES .lineaicns2 img{
+    margin-left: 0% ;
+    width: 73%;
+    height: 73%;
+}
+#SECTORESINDUSTRIALES .lineaicns2 h1{
+    margin-top: -5%;
+    font-family: assistant-bold;
+    color: #ffffff; 
+    font-size: 18px;
+    width: 100%;
+    height: 40%;
+}
+#SECTORESINDUSTRIALES .lineaicns3{
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+#SECTORESINDUSTRIALES .lineaicns3 img{
+    margin-left: 0% ;
+    width: 73%;
+    height: 73%;
+}
+#SECTORESINDUSTRIALES .lineaicns3 h1{
+    margin-top: -5%;
+    font-family: assistant-bold;
+    color: #ffffff; 
+    font-size: 18px;
+    width: 100%;
+    height: 40%;
+}
+#SECTORESINDUSTRIALES .lineaicns4{
+    float: left;
+    width: 160px;
+    height: 160px;
+}
+#SECTORESINDUSTRIALES .lineaicns4 img{
+    margin-left: 0% ;
+    width: 73%;
+    height: 73%;
+}
+#SECTORESINDUSTRIALES .lineaicns4 h1{
+    margin-top: -5%;
+    font-family: assistant-bold;
+    color: #ffffff; 
+    font-size: 18px;
+    width: 100%;
+    height: 40%;
+}
+#SECTORESINDUSTRIALES .rayita2si{
+    margin-left: 47%;
+    width: 90px;
+    height: 7px;
+    background: #ffffff;
+}
+#SECTORESINDUSTRIALES .marcassi{
+    margin-top: 70px;
+    /*margin-left: 25%;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    height: 12%;
+}
+#SECTORESINDUSTRIALES .marcas1 img{
+    margin-top: 2%;
+    float: left;
+    width: 20%;
+    height: 35%;
+}
+#SECTORESINDUSTRIALES .marcas1 img:hover{
+    width: 21%;
+    height: 36%;
+}
+#SECTORESINDUSTRIALES .marcas2 img{ 
+    margin-left: 5%;
+    float: left;
+    width: 16%;
+    height: 35%;
+}
+#SECTORESINDUSTRIALES .marcas2 img:hover{
+    width: 17%;
+    height: 36%;
+}
+#SECTORESINDUSTRIALES .marcas3 img{ 
+    margin-left: 4%;
+    float: left;
+    width: 13%;
+    height: 30%;
+}
+#SECTORESINDUSTRIALES .marcas3 img:hover{
+    width: 14%;
+    height: 31%;
+}
+#SECTORESINDUSTRIALES .marcas4 img{ 
+    margin-left: 2%;
+    float: left;
+    width: 12%;
+    height: 35%;
+}
+#SECTORESINDUSTRIALES .marcas4 img:hover{
+    width: 13%;
+    height: 36%;
+}
+#SECTORESINDUSTRIALES .marcas5 img{ 
+    margin-top: 3%;
+    margin-left: 3%;
+    float: left;
+    width: 20%;
+    height: 35%;
+}
+#SECTORESINDUSTRIALES .marcas5 img:hover{
+    width: 21%;
+    height: 36%;
+}
+#SECTORESINDUSTRIALES .marcas6 img{ 
+    margin-top: 2%;
+    margin-left: 3%;
+    float: left;
+    width: 9%;
+    height: 35%;
+}
+#SECTORESINDUSTRIALES .marcas6 img:hover{
+    width: 10%;
+    height: 36%;
+}
+#SECTORESINDUSTRIALES .marcas7 img{ 
+    margin-top: 4%;
+    margin-left: 2%;
+    float: left;
+    width: 33%;
+    height: 35%;
+}
+#SECTORESINDUSTRIALES .marcas7 img:hover{
+    width: 34%;
+    height: 36%;
+}
+#SECTORESINDUSTRIALES .marcas8 img{ 
+    margin-top: 1%;
+    margin-left: 4%;
+    float: left;
+    width: 20%;
+    height: 35%;
+}
+#SECTORESINDUSTRIALES .marcas8 img:hover{
+     width: 21%;
+    height: 36%;
+}
+#SECTORESINDUSTRIALES .marcas9 img{ 
+    margin-top: 2%;
+    margin-left: 5%;
+    float: left;
+    width: 18%;
+    height: 35%;
+}
+#SECTORESINDUSTRIALES .marcas9 img:hover{
+    width: 19%;
+    height: 36%;
+}
+/*Aqui comienza la edicion de prductos*/
+#PRODUCTOS .todoprod{
+    width: 100%;
+    height: 1550px;
+}
+@media (min-width: 1600px){
+    #PRODUCTOS .todoprod{
+        height: 1820px;
+    }
+}
+#PRODUCTOS .tituloprod{
+    width: 100%;
+    height: 195px;
+}
+
+#PRODUCTOS .tituloprod h1{
+    margin-top: 70px;
+    margin-left: 14%;
+    font-size: 400%; 
+    font-family: assistant-bold;
+    color: #0086cb;
+}
+#PRODUCTOS .tituloprod span{
+    display: inline-block;
+    margin-left: 14.5%;
+    transform: translateY(-45px);
+    width: 4px;
+    height: 27px;
+    border: 2px solid #f1a21e;    
+}
+#PRODUCTOS .tituloprod h2{
+    margin-top: -20px;
+    margin-left: 15.5%;
+    font-size: 250%; 
+    font-family: assistant-bold;
+    color: #00609c;
+}
+#PRODUCTOS .carrusels{
+    margin-left: 14%;
+    width: 72%;
+    height: 80%;
+}
+#PRODUCTOS .carruselslin1{
+    width: 100%;
+    height: 43%;
+}
+
+#PRODUCTOS .gasypet{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#PRODUCTOS .gasypet h1{
+    font-family: assistant-bold;
+    color: #989798;
+    font-weight: bolder;
+    line-height: 40px;
+}
+#PRODUCTOS .gasypet p{
+    font-family: assistant-light-extra;
+    font-size: 18px;
+    color: #989798;
+    font-weight: bolder;
+}
+#PRODUCTOS .gasypet p b{
+    font-family: assistant-light-extra;
+    font-size: 18px;
+    color: #444242;
+    font-weight: bolder;
+}
+#PRODUCTOS .gasypet span{
+    font-family: assistant-bold;
+    font-size: 22px;
+    color: #006098
+}
+#PRODUCTOS .gasypet span img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#PRODUCTOS .continst{
+    transform: translateX(30px);
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+#PRODUCTOS .continst h1{
+    font-family: assistant-bold;
+    color: #989798;
+    font-weight: bolder;
+    line-height: 40px;
+}
+#PRODUCTOS .continst p{
+    font-family: assistant-light-extra;
+    font-size: 18px;
+    color: #989798;
+    font-weight: bolder;
+}
+#PRODUCTOS .continst p b{
+    font-family: assistant-light-extra;
+    font-size: 18px;
+    color: #444242;
+    font-weight: bolder;
+}
+#PRODUCTOS .continst span{
+    font-family: assistant-bold;
+    font-size: 22px;
+    color: #006098
+}
+
+#PRODUCTOS .continst span img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#PRODUCTOS .carruselslin2{
+    margin-top: 8%;
+    width: 100%;
+    height: 43%;
+}
+@media (min-width: 1600px){
+    #PRODUCTOS .carruselslin2{
+        position: relative;
+        top: 8%;
+    }
+    
+}
+
+/*Aqui comienza la edicion de contacto*/
+#CONTACTO .todocontacto{
+    width: 100%;
+    height: 690px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/Fondo contacto-50.webp");
+}
+#CONTACTO .titulocont{
+    
+    width: 100%;
+    height: 180px;
+}
+#CONTACTO .titulocont h1{
+    padding-top: 5%;
+    margin-top: 5%;
+    text-align: center;
+    font-family: assistant-bold;
+    font-size: 62px;
+    color: #fffff6
+}
+#CONTACTO .titulocont .rayita1con{
+    margin-top: 1.1%;
+    margin-left: 47.5%;
+    width: 5%;
+    height: 6px;
+    background-color: #0096cb;
+    border: 2px solid #0096cb;   
+}
+#CONTACTO .oficont{
+    float: left;
+    width: 50%;
+    height: 70%;
+}
+#CONTACTO .oficont span p{
+    margin-top: 13%;
+    text-align: left;
+    margin-left: 37%;
+    font-family: assistant-bold;
+    font-size: 45px;
+    color: #fffff6;
+    line-height: 37px;
+  }
+#CONTACTO .oficont span img{
+  transform: translateY(185%);
+  margin-left: 25%;
+  width: 95px;
+  height: 98px;
+ 
+}
+#CONTACTO .oficont p{
+    margin-left: 28%;
+    font-family: assistant-light-extra;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fffff6;
+    line-height: 20px;
+}
+#CONTACTO .oficont img{
+    transform: translateY(-165px);
+    margin-left: 72%;
+    width: 155px;
+    height: 158px;
+}
+#CONTACTO .rayita2con{
+    margin-left: 100%;
+    width: 7px;
+    height: 290px;
+    background: #ffffff;
+    margin-top: 10.2%;
+    transform: translateY(-465px);
+}
+
+#CONTACTO .direccont{
+    float: right;
+    width: 50%;
+    height: 70%;
+}
+#CONTACTO .dirtitulo1{
+    margin-top: 12%;
+    margin-left: 7%;
+    width: 80%;
+    height: 24%;
+}
+#CONTACTO .dirtitulo1 h1{
+    font-family: assistant-bold;
+    color: #fffff6;
+    text-align: justify;
+    font-size: 35px;
+    line-height: 30px;
+}
+#CONTACTO .dirtitulo1 h5{
+    display: inline-block;
+    width: 192px;
+    height: 35px;   
+    border-radius: 30px / 30px ; 
+    border: solid 3px;
+    border-color: #f1a21e;
+    margin-top: 0%;
+    padding-top: 2px;
+    text-align: center;
+    font-family: assistant-light;
+    font-size: 20px;
+    color: #fffff6;
+}
+#CONTACTO .dirtitulo1 img{
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 9px;
+    height: 14px;   
+}
+#CONTACTO .dirtitulo1 span{
+    font-family: assistant-light;
+    color: #fffff6;
+    font-size: 18px;
+}
+
+#CONTACTO .dirtitulo2{
+    margin-top: 1%;
+    margin-left: 7%;
+    width: 80%;
+    height: 22%;
+}
+#CONTACTO .dirtitulo2 h1{
+    margin-top: 4%;
+    font-family: assistant-bold;
+    color: #fffff6;
+    text-align: justify;
+    font-size: 35px;
+    line-height: 30px;
+}
+#CONTACTO .dirtitulo2 h5{
+    display: inline-block;
+    width: 215px;
+    height: 35px;   
+    border-radius: 30px / 30px ; 
+    border: solid 3px;
+    border-color: #f1a21e;
+    margin-top: 0%;
+    padding-top: 2px;
+    text-align: center;
+    font-family: assistant-light;
+    font-size: 20px;
+    color: #fffff6;
+}
+#CONTACTO .dirtitulo2 img{
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 9px;
+    height: 14px;   
+}
+#CONTACTO .dirtitulo2 span{
+    
+    font-family: assistant-light;
+    color: #fffff6;
+    font-size: 18px;
+}
+
+#CONTACTO .dirtitulo3{
+    margin-top: 1%;
+    margin-left: 7%;
+    width: 80%;
+    height: 23%;
+}
+#CONTACTO .dirtitulo3 h1{
+    font-family: assistant-bold;
+    color: #fffff6;
+    text-align: justify;
+    font-size: 35px;
+    line-height: 30px;
+}
+#CONTACTO .dirtitulo3 h5{
+    display: inline-block;
+    width: 215px;
+    height: 35px;   
+    border-radius: 30px / 30px ; 
+    border: solid 3px;
+    border-color: #f1a21e;
+    margin-top: 0%;
+    padding-top: 2px;
+    text-align: center;
+    font-family: assistant-light;
+    font-size: 20px;
+    color: #fffff6;
+}
+#CONTACTO .dirtitulo3 img{
+    margin-left: 6px;
+    margin-right: 6px;
+    width: 9px;
+    height: 14px;   
+}
+#CONTACTO .dirtitulo3 span{
+    
+    font-family: assistant-light;
+    color: #fffff6;
+    font-size: 18px;
+}
+/*Aqui comienza la edicion del Mapa*/
+#MAP img{
+    width: 100%;
+}
+/*Aqui comienza la edicion del footer*/
+.footer1{
+    background-color: #0a253e;
+    height: 20px;
+}
+
+.footer2{
+    background-color: #00609c;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.TEXT-FOOT-bold{
+    
+    font-family: assistant-bold;
+    font-size: 20px;
+    color: #f5f4f4;
+    
+
+}
+.TEXT-FOOT-light{
+    
+    font-family: assistant-light-extra;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #f5f4f4;
+}
+
+
+/* border: solid 1px rgb(0, 0, 0);*/
